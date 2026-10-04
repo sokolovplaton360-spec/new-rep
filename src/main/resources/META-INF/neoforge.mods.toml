@@ -1,0 +1,55 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "${mod_license}"
+
+[[mixins]]
+config = "diesel_x_stellaris.mixins.json"
+
+[[mods]]
+modId = "${mod_id}"
+version = "${mod_version}"
+displayName = "${mod_name}"
+authors = "${mod_authors}"
+description = '''${mod_description}'''
+
+[[dependencies.diesel_x_stellaris]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.diesel_x_stellaris]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.diesel_x_stellaris]]
+modId = "create"
+type = "required"
+versionRange = "[${create_version},)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.diesel_x_stellaris]]
+modId = "createdieselgenerators"
+type = "required"
+versionRange = "[1,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.diesel_x_stellaris]]
+modId = "stellaris"
+type = "required"
+versionRange = "[${stellaris_version},)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.diesel_x_stellaris]]
+modId = "architectury"
+type = "required"
+versionRange = "[${architectury_version},)"
+ordering = "AFTER"
+side = "BOTH"

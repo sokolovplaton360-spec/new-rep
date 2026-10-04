@@ -1,0 +1,13 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "com.dieselxstellaris.integration.stellaris.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "FuelTypeMixin",
+    "FuelTypeTypeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

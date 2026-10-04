@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "createdieselgenerators:gasoline_bucket", "required": false },
+    { "id": "createdieselgenerators:diesel_bucket", "required": false }
+  ]
+}

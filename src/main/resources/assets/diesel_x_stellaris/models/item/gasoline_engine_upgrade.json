@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "diesel_x_stellaris:item/gasoline_engine_upgrade"
+  }
+}
